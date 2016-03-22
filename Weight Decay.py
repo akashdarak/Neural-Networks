@@ -112,10 +112,3 @@ def test_digits() :
  
 if __name__=='__main__' :
     test_digits()
-#    w = np.random.uniform(-1, 1, 2)
-#    X = np.random.uniform(-1, 1, [20, 2])
-#    y = (np.sign(np.dot(X, w)) + 1) / 2
-#    network = NeuralNetwork([2,2,1], 'logistic')
-#    network.fit(X,y, epochs=100)        #epochs=500
-#    for i in range(len(X)) :
-#        print i, y[i], network.predict(X[i])        
